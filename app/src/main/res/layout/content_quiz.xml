@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.almond.androidproject.QuizActivity"
+    tools:showIn="@layout/app_bar_quiz"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/timer"
+        android:text="00 : 15 : 00"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:background="#FEC34D"
+        android:textColor="#FFFF"
+        />
+
+    <TableLayout
+        android:id="@+id/grid"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box1"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box2"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box3"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box4"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box5"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box6"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box7"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box8"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box9"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box10"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box11"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box12"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box13"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box14"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box15"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9F00"
+                android:id="@+id/box16"
+                android:gravity="center"
+                android:textColor="#00FFFFFF"
+                android:text="test"
+                android:layout_margin="5dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_btn"
+        android:text="나가기"
+        android:textColor="#FFFF"
+        android:onClick="goToMain"/>
+
+</LinearLayout>
